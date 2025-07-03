@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group select,
+.input-group button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.input-group button {
+  background-color: #03dac6;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  background-color: #292929;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task.complete {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task .actions button {
+  margin-left: 5px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.edit-btn { background: #ffd54f; color: #000; }
+.complete-btn { background: #66bb6a; color: #fff; }
+.delete-btn { background: #ef5350; color: #fff; }
